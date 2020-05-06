@@ -1,0 +1,69 @@
+
+     ***********************************************************************
+     ***********************************************************************
+     ***********                                                  **********
+     ***********                  FactoryAuto                     **********
+     ***********                  AILink                          **********
+     ***********                                                  **********
+     ***********                                                  **********
+     ***********************************************************************
+     ***********************************************************************
+     Test Date: 2020-04-30, Test Time: 11:29:50
+
+
+1 Init
+TestTime:21.9398ms
+                                                                        PASS
+2 Parse Label
+IMEI=
+MEID=
+SN=
+MAC=123456789012
+TestTime:94.7485ms
+                                                                        PASS
+4 打开AT指令串口
+TestTime:1057.7525ms
+                                                                        PASS
+5 发现设备
+检测到产品上电，AT response=[+NOTICE:SCANFINISH
+
+ERROR
+
+ERROR
+]  contain =[ERROR]
+TestTime:1239.5815ms
+                                                                        PASS
+6 读取License文件
+读取License文件失败,异常：读取License文件失败,未读到该MAC：123456789012的binFile
+TestTime:8102.0167ms
+                                                                        FAIL
+7 检查产品License
+TestTime:18.9491ms
+                                                                        SKIP
+8 关闭WIFI串口
+TestTime:21.9415ms
+                                                                        PASS
+9 Deinit
+TestTime:23.936ms
+                                                                        PASS
+
+第6项:
+读取License文件
+System.Exception: 读取License文件失败,异常：读取License文件失败,未读到该MAC：123456789012的binFile
+   在 AILinkFactoryAuto.Task.SmartBracelet.Executer.ReadMapExecuter.Run(IProperties properties, GlobalDic`2 globalDic) 位置 E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheck\SmartBracelet\Executer\ReadMapExecuter.cs:行号 47
+   在 AILinkFactoryAuto.View.FormMain.Run()
+
+
+     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+     FF                                                                   FF
+     FF                    FFFFFFFF    FFF     FFFF  FF                   FF
+     FF                    FF         FF FF     FF   FF                   FF
+     FF                    FF        FF   FF    FF   FF                   FF
+     FF                    FFFFFF   FF     FF   FF   FF                   FF
+     FF                    FF       FFFFFFFFF   FF   FF                   FF
+     FF                    FF       FF     FF   FF   FF                   FF
+     FF                    FF       FF     FF  FFFF  FFFFFFFF             FF
+     FF                                                                   FF
+     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+
