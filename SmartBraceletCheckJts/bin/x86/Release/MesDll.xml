@@ -32,11 +32,24 @@
             <returns></returns>
             
         </member>
+        <member name="M:Mes.Test.MesProcess.FindInfoBySn(System.String)">
+            <summary>
+            根据产品SN获取产品基本信息
+            </summary>
+            <returns></returns>
+            
+        </member>
         <member name="M:Mes.Test.MesProcess.LoginImes(System.String,System.String)">
             <summary>
             登录iMES,获取IMES权限列表
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:Mes.Test.MesProcess.GetSerialNum(System.String)">
+            <summary>
+            根据串号ID获取串号.适用于excel模板未提前绑定的情况,如通用串号类型
+            </summary>
+            <param name="mac">MAC</param>
         </member>
     </members>
 </doc>

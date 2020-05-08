@@ -141,6 +141,7 @@ namespace AILinkFactoryAuto.Task.SmartBracelet.Executer
                     }
                 }
             }
+            log.Info("LOG Response：\r\n" + responseLog);
 
             if (comlog.IsOpen)
             {

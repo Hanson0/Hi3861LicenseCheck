@@ -34,3 +34,6 @@ E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\Smart
 E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\obj\x86\Release\SmartBraceletCheckJts.csproj.GenerateResource.Cache
 E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\obj\x86\Release\AILinkFactoryAuto.GenJts.SmartBracelet.dll
 E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\obj\x86\Release\AILinkFactoryAuto.GenJts.SmartBracelet.pdb
+E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\bin\x86\Release\MesDll.dll
+E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\bin\x86\Release\MesDll.pdb
+E:\2_工作和软件\1_工作存档\01长虹爱联\美的Hi3861项目\Code\SmartBraceletCheck\SmartBraceletCheckJts\bin\x86\Release\MesDll.xml

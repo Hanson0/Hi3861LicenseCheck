@@ -28,7 +28,7 @@
         "SnLocation": 0,
         "ImeiLocation": 0,
         "MeidLocation": 0,
-        "MacLocation": 1,
+        "MacLocation": 0,
         "ExecuteCondition": 1,
         "Timeout": 1000,
         "SleepTimeBefore": 0,
